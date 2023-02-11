@@ -1,44 +1,25 @@
-.navbar-container{
-  position: sticky;
-  z-index: 3;
+.navbar-logo{
+  justify-self: start;
+  margin-left:20px;
+  color:#fff;
+  margin-top:4vh;
+  cursor:pointer;
+}
+.nav-container{
+  position:sticky;
+  z-index:3;
   top:0;
 }
 .navbar{
   display:flex;
   justify-content: space-between;
-  height: 15vh;
+  height:15vh;
   background-color: #1b1b1b;
 }
-.navbar-logo{
-  justify-self: start;
-  margin-left: 20px;
-  color:#fff;
+.seeCarrito {
+  font-size: 25px;
+  margin-right: 20px;
   margin-top: 4vh;
   cursor:pointer;
-}
-.seeCarrito{
-  font-size:25px;
-  margin-right:20px;
-  margin-top:4vh;
-  cursor:pointer;
-  text-decoration: none;
-}
-.item-list-container{
-  width:60%;
-  height:100%;
-  
-}
-.item-list-container ul{
-list-style:none;
-display: flex;
-margin: 0;
-justify-content: flex-end;
-
-}
-.item-list-container ul li{
-  margin:8px;
-  border:2px solid rgba(128, 38, 2, 0.651);
-  color:white;
-  font-weight: lighter;
-  cursor:pointer;
+  text-decoration:none;
 }

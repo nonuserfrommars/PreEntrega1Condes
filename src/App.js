@@ -1,5 +1,5 @@
 
-import Home from './components/Home/home';
+import Home from './components/Home/Home';
 import CartContent from './components/CartContent/CartContent';
 import DataProvider from './components/Context/DataContext';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -12,6 +12,7 @@ function App() {
       <Route path="/" element={<Home></Home>} /> 
       <Route path="/cart" element={<CartContent />}/>
       <Route path="/item" element ={<ItemDetailContainer></ItemDetailContainer>} />
+      
     </Routes> 
     </BrowserRouter>
     </DataProvider>

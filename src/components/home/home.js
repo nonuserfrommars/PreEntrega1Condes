@@ -1,6 +1,5 @@
 import NavBar from "../Navbar/NavBar";
 import Banner from "../Banner/Banner";
-import Products from "../Products/Products";
 import ItemListContainer from "../Products/ItemListContainer";
 const Home = () =>{
   return(
@@ -12,6 +11,6 @@ const Home = () =>{
     
     </div>
     </>
-  )
-}
+  );
+};
 export default Home;

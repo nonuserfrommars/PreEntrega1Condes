@@ -4,42 +4,48 @@
   "name":"CDS",
   "price":1000,
   "img":"./img/cds.png",
-  "detalles":"blablablablabla"
+  "detalles":"blablablablabla",
+  "quanty":1
 },
   {
   "id": 2,
   "name":"Vinilos",
   "price":2000,
   "img":"./img/vinilo.jpg",
-  "detalles":"blablablablabla"
+  "detalles":"blablablablabla",
+  "quanty":1
 },
   {
   "id": 3,
   "name":"Casete",
   "price":800,
   "img":"./img/cassette.jpg",
-  "detalles":"blablablablabla"
+  "detalles":"blablablablabla",
+  "quanty": 1
 },
   {
   "id": 4,
   "name":"Radio Vintage",
   "price":10000,
   "img":"./img/pexels-nadi-lindsay-10406847.jpg",
-  "detalles":"blablablablabla"
+  "detalles":"blablablablabla",
+  "quanty":1
 },
   {
   "id": 5,
   "name":"Tocadiscos Vintage",
   "price":10000,
   "img":"./img/tocadisc.jfif",
-  "detalles":"blablablablabla"
+  "detalles":"blablablablabla",
+  "quanty":1
 },
   {
   "id": 6,
   "name":"Grabadora Vintage",
   "price":10000,
   "img":"./img/grabavintage.jpg",
-  "detalles":"blablablablabla"
+  "detalles":"blablablablabla",
+  "quanty":1
 }
 
 

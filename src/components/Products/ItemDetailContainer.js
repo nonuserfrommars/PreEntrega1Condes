@@ -1,7 +1,7 @@
 import React from 'react'
 import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
-import NavBar from '../Navbar/NavBar';
+import NavBar from './src/components/Navbar/navbar';
 const ItemDetailContainer = () => {
   const { data } = useContext(dataContext);
   return data.map((product) => {

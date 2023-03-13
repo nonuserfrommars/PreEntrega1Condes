@@ -1,5 +1,5 @@
 
-import Home from './components/Home/Home';
+import Home from './src/components/Home/home';
 import CartContent from './components/CartContent/CartContent';
 import DataProvider from './components/Context/DataContext';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

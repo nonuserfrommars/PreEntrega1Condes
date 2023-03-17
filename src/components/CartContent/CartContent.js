@@ -3,7 +3,7 @@ import { useContext } from 'react'
 import { dataContext } from '../Context/DataContext'
 import CartTotal from "./CartTotal"
 import "./CartContent.css"
-import NavBar from "./src/components/Nabvar/navbar"
+import NavBar from "../Navbar/NavBar"
 
 const CartContent = () => {
 const { cart } = useContext(dataContext)
